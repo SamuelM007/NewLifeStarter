@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Volunteer & Donate</title>
     <link href="../style.css" rel="Stylesheet" />
+    <script src="../script.js"></script>
   </head>
   <body>
     <fade>
@@ -23,35 +24,47 @@
         </nav>
       </div>
       <div class="content-wrapper">
-        <Resources>
+        <main>
           <h2>Resources & Services</h2>
           <p>
             Providing access to treatment programs, skill training, and
             employment opportunities.
           </p>
-        </Resources>
-        <support>
-          <h3>Support Programs</h3>
+        </main>
+        <button class="button" onclick="health()">
+          <h3>Health Care</h3>
           <p>
-            Access to rehabilitation, counseling, and skill development
-            programs.
+            Health Care for the Homeless Network County. Public Health – Seattle
+            & King County
           </p>
-        </support>
+        </button>
 
-        <Job>
-          <h3>Job Training</h3>
+        <button class="button" onclick="employment()">
+          <h3>Homeless Employment Program</h3>
           <p>
-            We offer training in various fields to help individuals re-enter the
-            workforce.
+            Employment by YWCA to provide for people experiencing homelessness
+            with a full range of individualized employment and support services
           </p>
-        </Job>
-        <employment>
-          <h3>Employment Assistance</h3>
-          <p>
-            Connecting trained individuals with employers for stable job
-            opportunities.
-          </p>
-        </employment>
+        </button>
+        <button disabled class="button">
+          <h3>Food and Shelter</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.theauburnfoodbank.org/homeless"
+                target="_blank"
+                >Food Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.homelessshelterdirectory.org/shelter/wa_arcadia-shelter"
+                target="_blank"
+                >Shelter assistance</a
+              >
+            </li>
+          </ul>
+        </button>
       </div>
       <footer>
         <p>&copy; 2025 The New Life Starter. All Rights Reserved.</p>
